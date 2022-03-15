@@ -12,3 +12,10 @@ Glide for image loading
 Mockito for Unit test
 
 DaggerHilt for Dependency injection
+
+Coroutine for Threading
+
+LiveData
+
+# How to run app & test
+
