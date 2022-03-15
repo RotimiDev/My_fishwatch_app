@@ -13,7 +13,7 @@ Mockito for Unit test
 
 DaggerHilt for Dependency injection
 
-Coroutine for Threading
+Coroutine flow for Threading
 
 LiveData
 
