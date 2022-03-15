@@ -18,4 +18,11 @@ The screen has strictly three information per item on the list, which are  speci
 
 6. LiveData
 
+7. Connectivity Manager to monitor network connection
+
+8. ‘ACCESS_NETWORK_STATE’ permission to help App not to crash when network is turned off
+
+
+
+
 # How to run app & test
