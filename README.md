@@ -5,17 +5,16 @@ The screen has strictly three information per item on the list, which are  speci
 When users click on an item on the list, it navigate to the second screen which display a list of the content of the Image Gallery.
 
 # Libraries
-Retrofit for REST api communication
+1. Retrofit for REST api communication
 
-Glide for image loading
+2. Glide for image loading
 
-Mockito for Unit test
+3. Mockito for Unit test
 
-DaggerHilt for Dependency injection
+4. DaggerHilt for Dependency injection
 
-Coroutine flow for Threading
+5. Coroutine flow for Threading
 
-LiveData
+6. LiveData
 
 # How to run app & test
-
