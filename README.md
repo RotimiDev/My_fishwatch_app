@@ -6,6 +6,9 @@ When users click on an item on the list, it navigate to the second screen which 
 
 # Libraries
 Retrofit for REST api communication
+
 Glide for image loading
+
 Mockito for Unit test
+
 DaggerHilt for Dependency injection
