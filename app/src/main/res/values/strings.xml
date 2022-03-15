@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">OceangrSmithAssessment</string>
+    <string name="fishwatch_logo">FishWatch Logo</string>
+    <string name="fish_name">Fish Name</string>
+    <string name="image_gallery_content">Image Gallery Content</string>
+    <string name="habitat_impacts">Habitat Impacts</string>
+    <string name="connected">Connected</string>
+    <string name="lost_connection">Lost Connection</string>
+    <string name="no_internet">No Internet</string>
+</resources>
