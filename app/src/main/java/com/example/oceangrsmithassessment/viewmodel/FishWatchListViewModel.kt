@@ -38,7 +38,6 @@ class FishWatchListViewModel @Inject constructor(
         } catch (e: Exception){
 
         }
-
     }
 
     //Search Fish
