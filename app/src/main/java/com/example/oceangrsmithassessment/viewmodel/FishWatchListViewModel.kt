@@ -74,8 +74,6 @@ class FishWatchListViewModel @Inject constructor(
 
             }
         }
-
-
     }
 
     private fun handleFishData(
