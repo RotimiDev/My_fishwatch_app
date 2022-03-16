@@ -20,11 +20,11 @@ The simple app contains two screens. The first screen display a list of sea anim
 
 
 **:blowfish:How to install, run and test the app**
-* Using the android studio emulation - Clone this repo using this git@github.com:RotimiDev/My_fishwatch_app.git
+* Using android studio emulation - Copy this link **git@github.com:RotimiDev/My_fishwatch_app.git** and clone this repo
 * Allow it to build (**Please be sure your android studio default JDK is set on version 11 which was used in this project**)
 * Now run the app on your emulator
 
-For better experience you can install the APK version on your device using this link - https://appsenjoy.com/xBJhp
+For better experience you can **install the APK version on your device** using this link - https://appsenjoy.com/xBJhp
 or run the app directly from android studio using your android phone.
 
 **:blowfish:Future Improvement**
