@@ -2,7 +2,7 @@
 
 This is an Android demo application that displays the various information gotten from this sea animals endpoint https://www.fishwatch.gov/api/species            
 
-The simple app contains two screens. The first screen display a list of sea animals information and has three information per item on the list, which are  **species name, Habitat Impacts** and **the display image of the Species Illustration Photo** src. When users click on an item on the list, it navigate to the second screen which displays list of the content of the Image Gallery. 
+The simple app contains two screens. The first screen display a list of sea animals information and has three details per item on the list, which are  **species name, Habitat Impacts** and **the display image of the Species Illustration Photo** src. When users click on an item on the list, it navigate to the second screen which displays list of the content of the Image Gallery. 
 
 **:blowfish:Libraries/tools**
 * MVVM architecture pattern
