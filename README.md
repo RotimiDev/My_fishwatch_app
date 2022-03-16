@@ -6,7 +6,7 @@ The simple app contains two screens. The first screen display a list of sea anim
 
 **:blowfish:Libraries/tools used**
 * MVVM architecture pattern
-* Navigation component to helps implement effective navigation
+* Navigation component to help implement effective navigation
 * Retrofit for REST api calls
 * Glide & Coil for image loading
 * Mockito framework & JUnit 5 via android-junit5 for Unit test
@@ -14,7 +14,7 @@ The simple app contains two screens. The first screen display a list of sea anim
 * Coroutine flow for Threading
 * LiveData for lifecycle-awareness
 * Connectivity Manager to monitor network connection
-* ‘ACCESS_NETWORK_STATE’ permission to help App not to crash when network is turned off 
+* Error handling - ‘ACCESS_NETWORK_STATE’ permission to help App not to crash when network is turned off 
 * ViewBinding & DataBinding to bind UI components in layouts to data sources in the app
 * 100% KOTLIN
 
