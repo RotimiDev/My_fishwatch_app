@@ -25,7 +25,7 @@ The simple app contains two screens. The first screen display a list of sea anim
 * Now run the app on your emulator
 
 For better experience you can **install the APK version on your device** using this link - https://appsenjoy.com/xBJhp
-or run the app directly from android studio using your android phone.
+or run the app directly from android studio using a USB and your android phone.
 
 **:blowfish:Future Improvement**
 * Fix searchView bug
