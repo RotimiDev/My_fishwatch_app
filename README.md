@@ -5,17 +5,20 @@ This is an Android demo application that displays the various information gotten
 This simple app is composed of two single screens. The first screen display a list of sea animals information.
 The screen has strictly three information per item on the list, which are  **species name, Habitat Impacts** and **display the image of the Species Illustration Photo** src. When users click on an item on the list, it navigate to the second screen which display a list of the content of the Image Gallery. 
 
-**Libraries**
-* Retrofit for REST api communication
+**Libraries/tools**
+* MVVM architecture pattern
+* Navigation component
+* Retrofit for REST api calls
 * Glide & Coil for image loading
-* Mockito for Unit test
+* Mockito & JUnit 5 via android-junit5 for Unit test
 * DaggerHilt for Dependency injection
 * Coroutine flow for Threading
 * LiveData
 * Connectivity Manager to monitor network connection
 * ‘ACCESS_NETWORK_STATE’ permission to help App not to crash when network is turned off 
+* ViewBinding & DataBinding for binding data to views
 
 
 
 
-# How to run app & test
+**How to run app & test**
