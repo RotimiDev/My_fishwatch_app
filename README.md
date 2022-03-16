@@ -2,7 +2,7 @@
 
 This is an Android demo application that displays the various information gotten from this sea animals endpoint https://www.fishwatch.gov/api/species            
 
-This simple app is composed of two single screens. The first screen display a list of sea animals information.
+The simple app contains two screens. The first screen display a list of sea animals information.
 The screen has strictly three information per item on the list, which are  **species name, Habitat Impacts** and **display the image of the Species Illustration Photo** src. When users click on an item on the list, it navigate to the second screen which display a list of the content of the Image Gallery. 
 
 **:blowfish:Libraries/tools**
