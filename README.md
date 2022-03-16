@@ -5,7 +5,7 @@ This is an Android demo application that displays the various information gotten
 This simple app is composed of two single screens. The first screen display a list of sea animals information.
 The screen has strictly three information per item on the list, which are  **species name, Habitat Impacts** and **display the image of the Species Illustration Photo** src. When users click on an item on the list, it navigate to the second screen which display a list of the content of the Image Gallery. 
 
-**Libraries/tools**
+**:blowfish:Libraries/tools**
 * MVVM architecture pattern
 * Navigation component to helps implement effective navigation
 * Retrofit for REST api calls
@@ -23,4 +23,16 @@ The screen has strictly three information per item on the list, which are  **spe
 
 
 
-**How to run app & test**
+**:blowfish:How to install, run and test the app**
+* Using the android studio emulation - Clone this repo using this git@github.com:RotimiDev/My_fishwatch_app.git
+* Allow it to build (**Please be sure your android studio default JDK is set on version 11 which was used in this project**)
+* Now run the app on your emulator
+
+For better experience you can install the APK version on your device using this link - https://appsenjoy.com/xBJhp
+or run the app directly from android studio using your android phone.
+
+**:blowfish:Future Improvement**
+* Fix searchView bug
+* Run full unit and UI testing
+* Fix second screen issue
+* Add a nav drawer with menu
