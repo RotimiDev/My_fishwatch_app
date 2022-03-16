@@ -9,7 +9,7 @@ The simple app contains two screens. The first screen display a list of sea anim
 * Navigation component to help implement effective navigation
 * Retrofit for REST api calls
 * Glide & Coil for image loading
-* Mockito framework & JUnit 5 via android-junit5 for Unit test
+* Mockito framework & JUnit 5 via android-junit5 for Unit testing
 * DaggerHilt for Dependency injection
 * Coroutine flow for Threading
 * LiveData for lifecycle-awareness
