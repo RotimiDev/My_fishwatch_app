@@ -7,16 +7,18 @@ The screen has strictly three information per item on the list, which are  **spe
 
 **Libraries/tools**
 * MVVM architecture pattern
-* Navigation component
+* Navigation component to helps implement effective navigation
 * Retrofit for REST api calls
 * Glide & Coil for image loading
-* Mockito & JUnit 5 via android-junit5 for Unit test
+* Mockito framework & JUnit 5 via android-junit5 for Unit test
 * DaggerHilt for Dependency injection
 * Coroutine flow for Threading
-* LiveData
+* LiveData for lifecycle-awareness
 * Connectivity Manager to monitor network connection
 * ‘ACCESS_NETWORK_STATE’ permission to help App not to crash when network is turned off 
-* ViewBinding & DataBinding for binding data to views
+* ViewBinding & DataBinding to bind UI components in layouts to data sources in the app using a declarative format rather than programmatically
+
+* 100% KOTLIN
 
 
 
