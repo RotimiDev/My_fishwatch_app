@@ -4,7 +4,7 @@ This is an Android demo application that displays the various information gotten
 
 The simple app contains two screens. The first screen display a list of sea animals information and has three details per item on the list, which are  **species name, Habitat Impacts** and **the display image of the Species Illustration Photo** src. When users click on an item on the list, it navigate to the second screen which displays list of the content of the Image Gallery. 
 
-**:blowfish:Libraries/tools**
+**:blowfish:Libraries/tools used**
 * MVVM architecture pattern
 * Navigation component to helps implement effective navigation
 * Retrofit for REST api calls
@@ -15,11 +15,8 @@ The simple app contains two screens. The first screen display a list of sea anim
 * LiveData for lifecycle-awareness
 * Connectivity Manager to monitor network connection
 * ‘ACCESS_NETWORK_STATE’ permission to help App not to crash when network is turned off 
-* ViewBinding & DataBinding to bind UI components in layouts to data sources in the app using a declarative format rather than programmatically
-
+* ViewBinding & DataBinding to bind UI components in layouts to data sources in the app
 * 100% KOTLIN
-
-
 
 
 **:blowfish:How to install, run and test the app**
