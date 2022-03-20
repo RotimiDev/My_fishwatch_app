@@ -12,7 +12,7 @@ The simple app contains two screens. The first screen display a list of sea anim
 * Mockito framework & JUnit 5 via android-junit5 for Unit testing
 * DaggerHilt for Dependency injection
 * Coroutine flow for Threading
-* LiveData for lifecycle-awareness
+* LiveData for lifecycle-aware
 * Connectivity Manager to monitor network connection
 * Error handling - ‘ACCESS_NETWORK_STATE’ permission to help App not to crash when network is turned off 
 * ViewBinding & DataBinding to bind UI components in layouts to data sources in the app
