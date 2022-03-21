@@ -28,7 +28,7 @@ For better experience you can **install the APK version on your device** using t
 or run the app directly from android studio using a USB and your android phone.
 
 **:blowfish:Future Improvement**
-* Fix searchView bug
+* ~~Fix searchView bug~~ - Fixed
 * Run full unit and UI testing
 * Fix second screen issue
 * Add a nav drawer with menu
