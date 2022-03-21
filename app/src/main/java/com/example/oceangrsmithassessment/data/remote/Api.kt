@@ -10,7 +10,7 @@ interface Api {
 
     @GET("species")
     suspend fun getFishWatch(
-    ): Response<Array<FishWatch>>
+    ): Response<List<FishWatch>>
 
     @GET("fishWatch/{name}")
     suspend fun getFishWatchInfo(

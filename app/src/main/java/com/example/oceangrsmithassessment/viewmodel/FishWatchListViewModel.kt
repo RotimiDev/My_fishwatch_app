@@ -19,10 +19,10 @@ class FishWatchListViewModel @Inject constructor(
     private val repository: FishAppRepository
 ) : ViewModel() {
 
-    private var _fishWatchList = MutableLiveData<Resource<Array<FishWatch>>>()
-    val fishWatchList: LiveData<Resource<Array<FishWatch>>> get() = _fishWatchList
+    private var _fishWatchList = MutableLiveData<Resource<List<FishWatch>>>()
+    val fishWatchList: LiveData<Resource<List<FishWatch>>> get() = _fishWatchList
 
-    private var cachedFishWatch = MutableLiveData<Resource<Array<FishWatch>>>()
+    private var cachedFishWatch = MutableLiveData<Resource<List<FishWatch>>>()
     private var isSearchStarting = true
     var isSearching = MutableStateFlow(false)
 
@@ -63,6 +63,9 @@ class FishWatchListViewModel @Inject constructor(
                 val results = fishToSearch?.data?.filter {
                     it.speciesName.contains(query.trim(), ignoreCase = true)
                 }
+                results?.let {
+                    _fishWatchList.value = Resource.Success(results)
+                }
 
                 }
             if (isSearchStarting) {
@@ -76,8 +79,8 @@ class FishWatchListViewModel @Inject constructor(
     }
 
     private fun handleFishData(
-        fishData: Response<Array<FishWatch>>
-    ): Resource<Array<FishWatch>> {
+        fishData: Response<List<FishWatch>>
+    ): Resource<List<FishWatch>> {
         if (fishData.isSuccessful) {
             fishData.body()?.let { data ->
                 return Resource.Success(data)

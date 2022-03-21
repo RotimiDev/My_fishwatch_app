@@ -10,7 +10,7 @@ class FishAppRepository @Inject constructor(
 ) {
 
     // Get responses for calls made by Api
-    suspend fun getFishWatch(): Response<Array<FishWatch>> {
+    suspend fun getFishWatch(): Response<List<FishWatch>> {
         return api.getFishWatch()
     }
 }
